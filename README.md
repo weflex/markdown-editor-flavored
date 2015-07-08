@@ -6,6 +6,10 @@ A markdown editor integrate `write` and `preview` tabs like Github's flavored ed
 
 ![Preview UI](resource/ui.png)
 
+### Live Demo
+
+[Markdown-Editor Demo](http://yorkie.ninja/markdown-editor/)
+
 ### Usage
 
 Define your `div` element as the editor replacement.
