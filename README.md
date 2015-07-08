@@ -23,7 +23,7 @@ editor.render();
 
 You can specify the width of editor by calling the `.render` function with an argument like:
 
-```
+```js
 editor.render('auto');
 // or
 editor.render('500px');
