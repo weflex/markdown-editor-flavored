@@ -1,5 +1,5 @@
 {
-  "name": "markdown-editor",
+  "name": "markdown-editor-flavored",
   "version": "1.0.1",
   "description": "a markdown editor just like github flavored editor",
   "main": "markdown-editor.js",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:yorkie/markdown-editor.git"
+    "url": "git@github.com:yorkie/markdown-editor-flavored.git"
   },
   "keywords": [
     "markdown",
@@ -22,7 +22,7 @@
   "author": "Yorkie Liu <yorkiefixer@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/yorkie/markdown-editor/issues"
+    "url": "https://github.com/yorkie/markdown-editor-flavored/issues"
   },
-  "homepage": "https://github.com/yorkie/markdown-editor"
+  "homepage": "https://github.com/yorkie/markdown-editor-flavored"
 }
