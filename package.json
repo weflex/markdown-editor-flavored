@@ -1,0 +1,28 @@
+{
+  "name": "markdown-editor",
+  "version": "1.0.0",
+  "description": "a markdown editor just like github flavored editor",
+  "main": "markdown-editor.js",
+  "dependencies": {
+    "markdown-it": "^4.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:yorkie/markdown-editor.git"
+  },
+  "keywords": [
+    "markdown",
+    "editor",
+    "github"
+  ],
+  "author": "Yorkie Liu <yorkiefixer@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yorkie/markdown-editor/issues"
+  },
+  "homepage": "https://github.com/yorkie/markdown-editor"
+}

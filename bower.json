@@ -1,0 +1,22 @@
+{
+  "name": "markdown-editor",
+  "main": "markdown-editor.js",
+  "version": "1.0.0",
+  "authors": [
+    "Yazhong Liu <yorkiefixer@gmail.com>"
+  ],
+  "description": "A markdown editor integrate `write` and `preview` tabs like Github's flavored editor.",
+  "keywords": [
+    "github",
+    "markdown",
+    "editor"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
