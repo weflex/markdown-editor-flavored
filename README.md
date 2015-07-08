@@ -8,7 +8,7 @@ A markdown editor integrate `write` and `preview` tabs like Github's flavored ed
 
 ### Live Demo
 
-[Markdown-Editor Demo](http://yorkie.ninja/markdown-editor/)
+[Markdown-Editor Demo](http://yorkie.ninja/markdown-editor-flavored/)
 
 ### Usage
 
