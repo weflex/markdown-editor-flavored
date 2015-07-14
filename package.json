@@ -1,6 +1,6 @@
 {
   "name": "markdown-editor-flavored",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "a markdown editor just like github flavored editor",
   "main": "markdown-editor.js",
   "dependencies": {
