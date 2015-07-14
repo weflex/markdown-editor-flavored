@@ -100,7 +100,7 @@
     var elem = document.createElement('link');
     elem.rel = 'stylesheet';
     elem.media = 'all';
-    elem.href = 'markdown-editor.css';
+    elem.href = (exports.MARKDOWN_EDITOR_FLAVORED_STYLE_PATH || '') + 'markdown-editor.css';
     return elem;
   }
 

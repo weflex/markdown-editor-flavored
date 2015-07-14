@@ -33,6 +33,12 @@ editor.render('auto');
 editor.render('500px');
 ```
 
+To change the root path to search style, you could define a special constant before load:
+
+```js
+window.MARKDOWN_EDITOR_FLAVORED_STYLE_PATH = 'your_root_dir';
+```
+
 ### Install
 
 ```sh
