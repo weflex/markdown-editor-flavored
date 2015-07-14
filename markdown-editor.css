@@ -66,6 +66,9 @@
 
 .markdown-editor .preview-content pre {
   background-color: #eee;
-  padding: 5px;
+  color: #434343;
+  font-size: 12px;
+  padding: 15px;
+  overflow: scroll;
 }
 
