@@ -97,6 +97,9 @@
   };
 
   function createStyle () {
+    if (exports.MARKDOWN_EDITOR_DISABLE_AUTO_LOAD_STYLE) {
+      return;
+    }
     var elem = document.createElement('link');
     elem.rel = 'stylesheet';
     elem.media = 'all';

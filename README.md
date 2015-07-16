@@ -33,11 +33,21 @@ editor.render('auto');
 editor.render('500px');
 ```
 
-To change the root path to search style, you could define a special constant before load:
+### Environment Variables
+
+`MARKDOWN_EDITOR_FLAVORED_STYLE_PATH`: to change the root path to search style, the usage:
 
 ```js
 window.MARKDOWN_EDITOR_FLAVORED_STYLE_PATH = 'your_root_dir';
 ```
+
+`MARKDOWN_EDITOR_DISABLE_AUTO_LOAD_STYLE`: to disable the auto load of styles(`markdown-editor.css`), the usage:
+
+```js
+window.MARKDOWN_EDITOR_DISABLE_AUTO_LOAD_STYLE = true;
+```
+
+(This is used for some custom tools to load the style in their working group, like `concat`).
 
 ### Install
 
