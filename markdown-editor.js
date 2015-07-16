@@ -18,7 +18,7 @@
 
   MarkdownEditor.prototype.ready = function () {
     this.hide();
-    if (!styleImported) {
+    if (!styleImported && exports.MARKDOWN_EDITOR_DISABLE_AUTO_LOAD_STYLE) {
       this.style = style;
       document.head.appendChild(this.style);
       styleImported = true;
