@@ -1,6 +1,9 @@
 {
   "name": "markdown-editor-flavored",
-  "main": "markdown-editor.js",
+  "main": [
+    "markdown-editor.js",
+    "markdown-editor.css"
+  ],
   "version": "1.0.3",
   "authors": [
     "Yazhong Liu <yorkiefixer@gmail.com>"
