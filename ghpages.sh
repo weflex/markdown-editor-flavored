@@ -5,7 +5,7 @@ REMOTE=`git remote -v | grep origin | grep push | awk '{split($0,a," "); print a
 mkdir -p ghpages-dist
 cp markdown-editor.js   ./ghpages-dist
 cp markdown-editor.css  ./ghpages-dist
-cp index.html ./ghpages-dist
+cp index.html           ./ghpages-dist
 cp node_modules/markdown-it/dist/markdown-it.min.js ./ghpages-dist
 cd ./ghpages-dist
 

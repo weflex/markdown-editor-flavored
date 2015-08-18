@@ -72,3 +72,11 @@
   overflow: scroll;
 }
 
+/**
+ * checkbox
+ */
+.markdown-editor ul label {
+  display: inline-block;
+  margin-left: 5px;
+}
+
