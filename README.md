@@ -6,7 +6,8 @@ A markdown editor integrate `write` and `preview` tabs like Github's flavored ed
 
 ### Live Demo
 
-[Markdown-Editor Demo](http://weflex.github.io/markdown-editor-flavored/)
+- [Markdown-Editor Demo](http://weflex.github.io/markdown-editor-flavored/)
+- [Screenshots](#screenshots)
 
 ### Install
 
