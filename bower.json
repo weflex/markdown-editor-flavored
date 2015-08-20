@@ -1,8 +1,8 @@
 {
   "name": "markdown-editor-flavored",
   "main": [
-    "markdown-editor.js",
-    "markdown-editor.css"
+    "dist/markdown-editor.js",
+    "dist/markdown-editor.css"
   ],
   "version": "1.0.3",
   "authors": [
