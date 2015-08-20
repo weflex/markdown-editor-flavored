@@ -53,8 +53,8 @@ window.MARKDOWN_EDITOR_DISABLE_AUTO_LOAD_STYLE = true;
 ### Install
 
 ```sh
-$ npm install markdown-editor
-$ bower install markdown-editor
+$ npm install markdown-editor-flavored
+$ bower install markdown-editor-flavored
 ```
 
 ### License

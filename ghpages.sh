@@ -9,10 +9,10 @@ cp dist/markdown-editor.js    ./ghpages-dist
 cp dist/markdown-editor.css   ./ghpages-dist
 cp index.html                 ./ghpages-dist
 
-# cd ./ghpages-dist
-# git init
-# git add .
-# git commit -a -m 'update gh-pages'
-# git branch 'gh-pages'
-# git checkout 'gh-pages'
-# git push $REMOTE 'gh-pages' --force
+cd ./ghpages-dist
+git init
+git add .
+git commit -a -m 'update gh-pages'
+git branch 'gh-pages'
+git checkout 'gh-pages'
+git push $REMOTE 'gh-pages' --force
