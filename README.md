@@ -4,8 +4,8 @@ Markdown Editor
 
 A markdown editor integrate `write` and `preview` tabs like Github's flavored editor.
 
-![Preview UI](resource/ui.png)
-![Preview UI-List](resource/ui-list.png)
+![Write UI](resource/write.png)
+![Preview UI](resource/preview.png)
 
 ### Live Demo
 
