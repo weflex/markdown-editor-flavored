@@ -4,12 +4,16 @@ Markdown Editor
 
 A markdown editor integrate `write` and `preview` tabs like Github's flavored editor.
 
-![Write UI](resource/write.png)
-![Preview UI](resource/preview.png)
-
 ### Live Demo
 
 [Markdown-Editor Demo](http://weflex.github.io/markdown-editor-flavored/)
+
+### Install
+
+```sh
+$ npm install markdown-editor-flavored
+$ bower install markdown-editor-flavored
+```
 
 ### Usage
 
@@ -50,12 +54,10 @@ window.MARKDOWN_EDITOR_DISABLE_AUTO_LOAD_STYLE = true;
 
 (This is used for some custom tools to load the style in their working group, like `concat`).
 
-### Install
+### Screenshots
 
-```sh
-$ npm install markdown-editor-flavored
-$ bower install markdown-editor-flavored
-```
+![Write UI](resource/write.png)
+![Preview UI](resource/preview.png)
 
 ### License
 
