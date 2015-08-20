@@ -56,8 +56,8 @@ window.MARKDOWN_EDITOR_DISABLE_AUTO_LOAD_STYLE = true;
 
 ### Screenshots
 
-![Write UI](resource/write.png)
 ![Preview UI](resource/preview.png)
+![Write UI](resource/write.png)
 
 ### License
 
