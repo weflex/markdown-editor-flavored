@@ -2,6 +2,8 @@
 const es = require('event-stream');
 const gulp = require('gulp');
 const concat = require('gulp-concat');
+const uglify = require('gulp-uglify');
+const minifyCss = require('gulp-minify-css');
 const DEST_PATH = './dist';
 
 gulp.task(
@@ -12,6 +14,7 @@ gulp.task(
       'node_modules/markdown-it/dist/markdown-it.min.js'
     ])
     .pipe(concat('markdown-editor.js'))
+    .pipe(uglify())
     .pipe(
       es.map(function (file, callback) {
         file.contents = new Buffer(
@@ -34,6 +37,7 @@ gulp.task(
       'lib/*.css'
     ])
     .pipe(concat('markdown-editor.css'))
+    .pipe(minifyCss())
     .pipe(gulp.dest(DEST_PATH));
   }
 );
