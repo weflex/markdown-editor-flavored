@@ -1,6 +1,6 @@
 {
   "name": "markdown-editor-flavored",
-  "version": "2.2.1",
+  "version": "2.2.2",
   "description": "a markdown editor just like github flavored editor",
   "main": "markdown-editor.js",
   "devDependencies": {
@@ -14,7 +14,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "./node_modules/.bin/gulp --gulpfile build.js build",
-    "prepublish": "ghpages.sh"
+    "prepublish": "./ghpages.sh"
   },
   "repository": {
     "type": "git",
