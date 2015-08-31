@@ -76,12 +76,27 @@
   padding-bottom: 5px;
 }
 
+.markdown-editor .preview-content p {
+  line-height: 22px;
+}
+
 .markdown-editor .preview-content pre {
   background-color: #eee;
   color: #434343;
   font-size: 12px;
   padding: 15px;
   overflow: scroll;
+}
+
+.markdown-editor .preview-content code {
+  background-color: #eee;
+  color: #434343;
+  font-size: 12px;
+  padding: 1px 5px;
+}
+
+.markdown-editor .preview-content pre code {
+  padding: 0;
 }
 
 /**
