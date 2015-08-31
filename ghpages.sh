@@ -9,6 +9,15 @@ cp dist/markdown-editor.js    ./ghpages-dist
 cp dist/markdown-editor.css   ./ghpages-dist
 cp index.html                 ./ghpages-dist
 
+while test $# -ne 0; do
+  case $1 in
+    --debug) exit;;
+    *) ;;
+  esac
+  shift
+done
+
+# push to release
 cd ./ghpages-dist
 git init
 git add .

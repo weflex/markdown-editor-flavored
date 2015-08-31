@@ -2,6 +2,7 @@
 .markdown-editor {
   font-size: 14px;
   width: 500px;
+  text-align: left;
 }
 
 .markdown-editor a {
@@ -50,6 +51,7 @@
   font-size: 15px;
   width: 98%;
   min-height: 200px;
+  max-height: 400px;
   outline: none;
   padding: 10px;
   margin: 1%;

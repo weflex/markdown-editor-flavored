@@ -14,7 +14,7 @@ gulp.task(
       'node_modules/markdown-it/dist/markdown-it.min.js'
     ])
     .pipe(concat('markdown-editor.js'))
-    .pipe(uglify())
+    // .pipe(uglify())
     .pipe(
       es.map(function (file, callback) {
         file.contents = new Buffer(

@@ -4,11 +4,15 @@
     <script type="text/javascript" src="markdown-editor.js"></script>
     <link rel="stylesheet" type="text/css" href="markdown-editor.css">
   </head>
-  <body>
+  <body style="margin:0;padding-top:20px;text-align:center;">
+    <h1 style="font-family:monospace"> Flavored Markdown Editor </h1>
     <div id="markdown-editor-simple"></div>
   </body>
   <script type="text/javascript">
-    var editor = new MarkdownEditor('#markdown-editor-simple');
+    var editor = new MarkdownEditor('#markdown-editor-simple', {
+      'width': '50%',
+      'margin-top': '20px'
+    });
     editor.render();
   </script>
 </html>
