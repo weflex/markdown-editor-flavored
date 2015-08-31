@@ -66,6 +66,14 @@
 
 .markdown-editor .preview-content {
   padding: 10px;
+  font: 13px/1.4 Helvetica, arial, nimbussansl, liberationsans, freesans, clean, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.markdown-editor .preview-content h1,
+.markdown-editor .preview-content h2,
+.markdown-editor .preview-content h3 {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 5px;
 }
 
 .markdown-editor .preview-content pre {
