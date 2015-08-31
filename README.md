@@ -27,7 +27,11 @@ Define your `div` element as the editor replacement.
 And write JavaScript:
 
 ```js
-var editor = new MarkdownEditor('#markdown-editor-sample');
+var editor = new MarkdownEditor('#markdown-editor-sample', {
+  // this is optional
+  'width': '100%',
+  'margin': '5px'
+});
 editor.render();
 ```
 
