@@ -95,6 +95,7 @@
 }
 
 .markdown-editor .preview-content code {
+  /*font-family: monospace;*/
   background-color: #eee;
   color: #434343;
   font-size: 12px;
