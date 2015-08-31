@@ -51,6 +51,8 @@
   top: 10px;
   left: 1%;
   right: 1%;
+  padding: 1%;
+  width: 98%;
   color: #333;
   background: #f9f9f9;
   border: 1px solid #ddd;
@@ -60,7 +62,6 @@
   min-height: 200px;
   max-height: 400px;
   outline: none;
-  padding: 1%;
   transition: background .3s;
   resize: none;
 }
