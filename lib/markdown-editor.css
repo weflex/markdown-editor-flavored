@@ -44,6 +44,7 @@
 
 .markdown-editor .write-content {
   position: relative;
+  height: 220px;
 }
 
 .markdown-editor textarea {
