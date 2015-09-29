@@ -64,7 +64,7 @@
   max-height: 400px;
   outline: none;
   transition: background .3s;
-  resize: none;
+  font-family: monospace;
 }
 
 .markdown-editor textarea:focus {
